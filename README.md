@@ -13,8 +13,8 @@ Serverless means a cloud-native development model that allows developers to buil
 - CloudFormation
 
 ### Architecture Diagram
+![Blank diagram (3)](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/54396e88-eee9-412a-8c54-b48ae55cedb8)
 
-![Alt text](file:///home/abhishek/Downloads/Blank%20diagram%20(3).jpeg)
 
 
 
