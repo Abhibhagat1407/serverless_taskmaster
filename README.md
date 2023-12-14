@@ -1,4 +1,4 @@
-# Serverless Task Master
+# Serverless Task Master Three Tiear Application
 ## This project follows the Event-Driven architecture
 
 
@@ -12,6 +12,9 @@ Serverless means a cloud-native development model that allows developers to buil
 - DynamoDB
 - CloudFormation
 
+### Architecture Diagram
+
+file:///home/abhishek/Downloads/Blank%20diagram%20(3).jpeg
 
 
 
