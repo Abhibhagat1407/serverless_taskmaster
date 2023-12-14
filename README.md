@@ -14,7 +14,7 @@ Serverless means a cloud-native development model that allows developers to buil
 
 ### Architecture Diagram
 
-file:///home/abhishek/Downloads/Blank%20diagram%20(3).jpeg
+![Alt text](file:///home/abhishek/Downloads/Blank%20diagram%20(3).jpeg)
 
 
 
