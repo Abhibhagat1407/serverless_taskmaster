@@ -5,7 +5,7 @@
 ### What is serverless?
 Serverless means a cloud-native development model that allows developers to build and run applications without having to manage servers. servers are only created when someone hits the URL or API Gateway makes a request.
 
-### What is Serverless Framework?
+### What is a Serverless Framework?
 The Serverless Framework helps you develop and deploy AWS Lambda functions, along with the AWS infrastructure resources they require.
 The Serverless Framework translates all syntax in serverless. yml to a single AWS CloudFormation template. By depending on CloudFormation for deployments, users of the Serverless Framework get the safety and reliability of CloudFormation. An AWS CloudFormation template is created from your serverless.
 
@@ -59,5 +59,26 @@ Because Serverless Framework requires the node to run so it is the prerequisite.
   
 ![alt text](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-15%2015-16-38.png)
 
-- If you want to see what and how manay components and resources serverless projet is using to deploy this application or test the HTTP API. Go to ` CloudFormation>stacks>resources ` and if you want to see the architecture or Flow diagram Go to: ` CloudFormation>stacks>update>Edit template in designer>View in Designer `
+- If you want to see what and how manay components and resources serverless projet is using to deploy this application or test the HTTP API.
+- Go to ` CloudFormation>stacks>resources ` and if you want to see the architecture or Flow diagram
+- Go to: ` CloudFormation>stacks>update>Edit template in designer>View in Designer `
+
+Now we can see that our code has been packaged using S3. Go to the S3 bucket section to see it visually. and in the above decription you can see that your infrastructure has been set up by cloudformation automation. 
+
+
+##### How does serverless automate all the deployment processes?
+It automates the deployment process by using the IAC( infrastructure as code ), Which is AWS CloudFormation, But as we are using the serverless framework we do not need to directly interact with the cloud formation. We can do all the automation by using the `serverless.yml` file.
+
+In the ` index.js ` file, all the code of our project is present we make any changes if we want like we can change the display message. This file is known as a handler.
+  
+
+- Using `serverless deploy` command we can deploy our project or using this command we can update the pre-existing stack or code.
+- After successful execution of the ` serverless deploy ` we will get the endpoint, copy that endpoint, and open it on the web browser you will see the output of your code.
+
+![alt text](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-15%2018-50-18.png)
+  
+
+
+
+
 
