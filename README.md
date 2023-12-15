@@ -61,9 +61,9 @@ Because Serverless Framework requires the node to run so it is the prerequisite.
 
 
 
-![alt text](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-15%2015-16-38.png)
+![alt text][image]
 
-
+[image]:file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-15%2015-16-38.png
 
 
 
