@@ -76,6 +76,9 @@ In the ` index.js ` file, all the code of our project is present we make any cha
 - After successful execution of the ` serverless deploy ` we will get the endpoint, copy that endpoint, and open it on the web browser you will see the output of your code.
 
 ![alt text](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-15%2018-50-18.png)
+
+#### How is security managed in the serverless framework? 
+API Gateway is connected to the Lamda function  and in the API Gateway there is authentication and authorization. Also, we can manually set up or attach the authorizer. That is why it has strong security inbuilt.
   
 
 
