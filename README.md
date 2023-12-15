@@ -33,9 +33,22 @@ The Serverless Framework translates all syntax in serverless. yml to a single AW
  [Click Here To Sign Up On AWS Serverless Framework](https://www.serverless.com/framework/docs/providers/aws/cli-reference/login)
  > In my case i have authorised my serverless framework using Github
 
+
 - Update your Ec2 instance with `sudo apt update` and install nodeJs also install npm with `sudo apt install npm`
-    [NodeJs Installation Guid](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+
+##### Why nodeJs Installation is required?
+Because Serverless Framework requires the node to run so it is the prerequisite. 
+  
+ [NodeJs Installation Guid](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
   Check the installation with `node -v` for nodejs and `npm -v` for npm.
+- Also install awscli `sudo apt install awscli` to get the AWS console access.
+
+  
+- Then Go to the serverless documentation and pick the first command from the setup `sudo npm install -g serverless `to set and configure your ec2 instance with the serverless framework.
+- After entering the above command it will show some options to choose like what kind of project do want to work with. choose the appropriate option as per your need.
+> In my case I have choose _ NodeJs HTTP API request _
+ 
+  
 
 
 
