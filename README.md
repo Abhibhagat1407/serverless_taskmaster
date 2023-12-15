@@ -56,14 +56,8 @@ Because Serverless Framework requires the node to run so it is the prerequisite.
 - Then give the access key ID and access key in the console. and you will be done with the configuration
 - Then it will ask you `Do you want to deploy now?` to which press `Y` and `enter`. after this will see the message something like " Deploying my-second-serverless-proj to stage dev (us-east-1, "default" provider) " Which shows that it started the deployment of the project.
 - Then you can see the deployment result in AWS serverless Framework
+  
+![alt text](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-15%2015-16-38.png)
 
-
-
-
-
-![alt text][image]
-
-[image]:file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-15%2015-16-38.png
-
-
+- If you want to see what and how manay components and resources serverless projet is using to deploy this application or test the HTTP API. Go to ` CloudFormation>stacks>resources ` and if you want to see the architecture or Flow diagram Go to: ` CloudFormation>stacks>update>Edit template in designer>View in Designer `
 
