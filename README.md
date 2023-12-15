@@ -45,10 +45,19 @@ Because Serverless Framework requires the node to run so it is the prerequisite.
 
   
 - Then Go to the serverless documentation and pick the first command from the setup `sudo npm install -g serverless `to set and configure your ec2 instance with the serverless framework.
-- After entering the above command it will show some options to choose like what kind of project do want to work with. choose the appropriate option as per your need.
-> In my case I have choose ` NodeJs HTTP API request `
- 
-  
+- After entering the above command it will show some options to choose like what kind of project do want to work with. choose the appropriate option as per your need. (To choose the required option use arrow keys for navigation.)
+> In my case I have choose ` NodeJs HTTP API request ` because I just want to check the API.
+
+- After hitting enter it will ask you to give a particular name to your project. give any name you want.
+- It will Download HTTP API template code for you to work with it.
+- Then it will ask for AWS credentials to get access of your aws-console
+> No need to select the console access. but create the access keys.
+
+- Then give the access key ID and access key in the console. and you will be done with the configuration
+- Then it will ask you `Do you want to deploy now?` to which press `Y` and `enter`. after this will see the message something like " Deploying my-second-serverless-proj to stage dev (us-east-1, "default" provider) " Which shows that it started the deployment of the project.
+- Then you can see the deployment result in AWS serverless Framework
+
+![alt text](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-15%2015-16-38.png)
 
 
 
