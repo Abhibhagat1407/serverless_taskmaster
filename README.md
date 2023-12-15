@@ -27,9 +27,15 @@ The Serverless Framework translates all syntax in serverless. yml to a single AW
 ### Step-by-step guide for the project 
 
 - Provisioned EC2 micro instance just to clone the project repo.
-> Use any instance you want. But don't use paid resources until it's not required.
-- We are using a serverless Framework in this project, so first sign up and make an account on Serverless Framework
-  [Click Here To Sign Up On AWS Serverless Framework](https://www.serverless.com/framework/docs/providers/aws/cli-reference/login)
+> Note: Use any instance you want. But don't use paid resources until it's not required.
+- We are using a serverless Framework in this project, so first sign up and make an account on Serverless Framework.
+
+ [Click Here To Sign Up On AWS Serverless Framework](https://www.serverless.com/framework/docs/providers/aws/cli-reference/login)
+ > In my case i have authorised my serverless framework using Github
+
+- Update your Ec2 instance with `sudo apt update` and install nodeJs also install npm with `sudo apt install npm`
+    [NodeJs Installation Guid](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+  Check the installation with `node -v` for nodejs and `npm -v` for npm.
 
 
 
