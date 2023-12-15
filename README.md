@@ -46,7 +46,7 @@ Because Serverless Framework requires the node to run so it is the prerequisite.
   
 - Then Go to the serverless documentation and pick the first command from the setup `sudo npm install -g serverless `to set and configure your ec2 instance with the serverless framework.
 - After entering the above command it will show some options to choose like what kind of project do want to work with. choose the appropriate option as per your need.
-> In my case I have choose _ NodeJs HTTP API request _
+> In my case I have choose ` NodeJs HTTP API request `
  
   
 
