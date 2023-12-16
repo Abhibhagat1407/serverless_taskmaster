@@ -104,7 +104,23 @@ The above project that we have discussed was the testing project of the HTTP API
  * Now you can check your CloudFormation stack to see the created resources after applying the serverless.yml file. here is the DynamoDB table created using the above configuration of the serverless.yml
    ![results](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2014-21-32.png)
 
-- Up until now we have just created the table required for the project in the next demonstration i will be creating the lambda functions 
+- Up until now we have just created the table required for the project in the next demonstration I will be creating the lambda functions. Lmabda function will get created for the hello service.
+- Then I wrote the lambda function to add a new service to it. in the previous example we just had a dynamodb as a resource now this Dunamodb table will get attached to the functions automatically.
+- That lambda function contains the service to display the hello message. To see that message copy the endpoint serverless gave you on the terminal and open it on the browser to see the message.
+  ![endpoint](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2014-56-39.png)
+  
+- After pasting this endpoint will see the Hello message.
+  ![message](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2015-01-00.png)
+
+- Several resources have been created after creating the lambda function.
+   * S3 is created for code packaging and marinating and creating the new versions as we update our cloud formation stack it creates the new versions of the packaging
+   * Also S3 is maintaining the state file.
+   * It automatically creates cloud watch log groups for logging.
+     ![cloudwatch logs](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2015-19-59.png)
+
+- Added more Three services like kalamkari, Kaambharo, and Kaamdikhao these will be created as separate objects and every object uses each lambda for each service or object.   
+  
+  
 
  
 
