@@ -97,7 +97,16 @@ The above project that we have discussed was the testing project of the HTTP API
 [output](![Screenshot from 2023-12-16 13-46-44](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/6069803e-9741-488e-bcc5-d6aa3aea8e62)
 )
 
-- after choosing the particular option it will start the deployment
+ * after choosing the particular option it will start the deployment. it will be reflected on the serverless apps dashboard
+
+ [output](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2014-10-36.png)
+
+ * Now you can check your CloudFormation stack to see the created resources after applying the serverless.yml file. here is the DynamoDB table created using the above configuration of the serverless.yml
+   ![results](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2014-21-32.png)
+
+- Up until now we have just created the table required for the project in the next demonstration i will be creating the lambda functions 
+
+ 
 
 
 
