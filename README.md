@@ -79,7 +79,25 @@ In the ` index.js ` file, all the code of our project is present we make any cha
 
 #### How is security managed in the serverless framework? 
 API Gateway is connected to the Lamda function  and in the API Gateway there is authentication and authorization. Also, we can manually set up or attach the authorizer. That is why it has strong security inbuilt.
-  
+
+
+### Let's get started with the actual Three tier taskmaster application
+In this project, we are going  to deploy the three-tier taskmaster application using the AWS serverless framework, The actual demonstration of the project starts from here on.
+The above project that we have discussed was the testing project of the HTTP API which serverless provides inbuild
+
+
+#### step by step guid
+
+- Clone the GitHub repo of the project from here: [https://github.com/Abhibhagat1407/serverless-taskmaster-aws-app.git]
+  for deploying applications using serverless it requires creating serveless. yml file for deployment configration
+- Create a serverless.yml file in the above-provided repo you will get the serverless file you can use for the refrence and modify it accordingly.
+- Before the deployment starts you need to set the org like this ( serverless --org=<username-of-serverless-famework>)
+ * It will ask for to choose the option for the deployment. Choose according to your requirements. You will get an output something like this:
+
+[output](![Screenshot from 2023-12-16 13-46-44](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/6069803e-9741-488e-bcc5-d6aa3aea8e62)
+)
+
+- after choosing the particular option it will start the deployment
 
 
 
