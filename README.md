@@ -223,7 +223,41 @@ You can see the output in the image here:
 ##### All those URL has different methods like GET, PUT, POST
 
 
-### Difference Between GET, PUT, POST
+
+
+
+### Difference Between GET, PUT, POST, DELETE
+
+##### GET- 
+GET is used to get the data from your server or database.
+
+##### PUT-
+PUT is used to update your data or existing data.
+
+##### POST-
+POST is used to insert your data.
+
+##### DELETE-
+DELETE is used to delete the data.
+
+
+
+
+#### Serverless state maintenance 
+serverless also maintains the state of the project like terraform. To see the serverless state file go to:
+````
+Go to: `your-project-directory`
+Do: `ls -a`
+see: `.serverless`
+move into that directory: `cd .serverless`
+Do: `ls`
+see: `serverless-state.json`
+```` 
+* serverless-state.json is the file that maintains the state. It is as same as a terraform state file.
+
+
+
+
 
  
 
