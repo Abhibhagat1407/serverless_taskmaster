@@ -130,13 +130,34 @@ Postman is a tool or software that provides a user-friendly UI for testing API e
 
 ##### Stetps of testing 
 * To get started first click on the + sign to create a new collection click on add request and enter the URL that we wanted to test.
-* 
+* After creating a collection you will see an option to give the service name that you want to test(hello text in blue)
+![Screenshot from 2023-12-17 15-40-12](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/5537d45d-58a7-421d-9d9d-c833a1178afe)
 
+* Then copy the URL (from the terminal in the case of serverless deployment) that you wanted to test on Postman, And enter the text bar present there. As we can see in the below image.
   
+  ![Screenshot from 2023-12-17 15-49-00](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/798d4230-658d-480e-9a5a-719772fc985c)
   
 
+##### * You can add the whole URL inside of the ENVIRONMENT variable
+  ````
+URL: https://vcijpdzuta.execute-api.us-east-1.amazonaws.com/
+URL Inside the ENV: {{dev_url}}
+````
+
+
+* Go to the >environment quick look
+  
+![Screenshot from 2023-12-17 16-00-58](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/c4614715-1d3b-41ee-9087-a8e0ce95b558)
+
+
+* Then select the edit option where the cursor pointing
+  
+![Screenshot from 2023-12-17 16-02-55](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/1cd2e09f-a521-497d-bd3c-39955e2c9a2d)
+
+* In the section of the add new variable give any variable name you want, and in the initial value and current value the same URL that you want to test.
  
-
+  
+  
 
 
 
