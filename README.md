@@ -154,10 +154,41 @@ URL Inside the ENV: {{dev_url}}
   
 ![Screenshot from 2023-12-17 16-02-55](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/1cd2e09f-a521-497d-bd3c-39955e2c9a2d)
 
-* In the section of the add new variable give any variable name you want, and in the initial value and current value the same URL that you want to test.
+* In the section of the add new variable give any variable name you want, and in the initial value and current value the same URL that you want to test and click on the save icon.
+* First I checked the URL of Hello, and Then I checked the URL of /kaam with the use of the environment variable
+  ````
+  {{dev_url}}/kaam
+  ````
+  this is how we can test the URL using ENV variables.
+* After running the above URL for /kaam I encountered an error
+  ````
+  {"message":"Internal Server Error"}
+  ````
+   
+ ![Screenshot from 2023-12-17 16-18-09](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/236ac925-65a5-4498-bf80-6c19ce8520ec)
+
+
+* So to troubleshoot the issue we need to check the Cloudwatch logs, Clicked on the log group to see the log group amongst all logs group we only need to look for the /kaam logs. location for the example or reference: `CloudWatch > Log groups/aws/lambda/aws-serverless-app-abhi-dev-kaamDikhao`
+* In the logs error was visible, see near the cursor
  
+![Screenshot from 2023-12-17 16-26-07](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/e885bf0d-3214-424a-ab15-b92101f1ff0e)
+
+
+
+* Clicked and opened that log stream to see the full description of the error.
   
+  ![Screenshot from 2023-12-17 16-26-27](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/57822185-ce36-42bc-b61f-7b5e7063d82c)
+
+It seems that the error is related to the uuid. It was related to `module not found`.
+
+* To resolve this issue we need to install npm packages
+  ````
+  npm install
+  ````
   
+![Screenshot from 2023-12-17 16-35-54](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/59ccf9b2-4774-40dd-9535-7851cc52c0fc)
+
+* Then again type `serverless deploy` to make changes in the previous deployment, which will resolve the error
 
 
 
