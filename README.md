@@ -118,7 +118,7 @@ The above project that we have discussed was the testing project of the HTTP API
    * It automatically creates cloud watch log groups for logging.
      ![cloudwatch logs](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2015-19-59.png)
 
-- Added more Three services like kaamkaro, Kaambharo, and Kaamdikhao these will be created as separate objects and every object uses each lambda for each service or object. That means we will be required to type Lamda functions for each service.
+- Added more Three services like kaamkaro, Kaambharo, and Kaamdikhao these will be created as separate objects and every object uses each lambda for each service or object. That means we will be required to type Lambda functions for each service.
 - After deploying all of these services you will see the endpoint for each service on the terminal like this:
   ![Screenshot from 2023-12-17 08-55-08](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/b14c4295-551b-42f8-ba12-215e250cba7b)
 
