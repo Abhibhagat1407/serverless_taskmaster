@@ -199,6 +199,35 @@ It seems that the error is related to the uuid. It was related to `module not fo
 ![Screenshot from 2023-12-17 17-06-13](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/9bed1441-751b-4dfa-9304-f4f0b528a92b)
 
 
+* Then I test the URL of the Kaambharo service and change the GET method to PUT and then from the parameters I choose the body with the JSON format and for testing typed this message:
+ ````
+ {
+    "kaam": "type any message you want"
+  }
+````
+You can see the output in the image here:
+![Screenshot from 2023-12-17 17-53-52](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/0246fcdd-57f4-491c-85b8-6d5ed8d5e1e3)
+
+* Go to the DynamoDB table section, in this project I followed, in your case, the table name will get changed this path follow this path: `DynamoDB > Explore items > KaamKaro` and open the `Scan or query items` dropdown and click on the run to see the changes has been reflected in dynamodb table.
+  
+![Screenshot from 2023-12-17 18-02-34](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/6f32c6cf-68ac-4ecc-9ae5-5999bd9e69ea)
+
+
+
+* And for the last  URL of the service is kaamkhatamkaro in my case requirese to put id along with the URL and choose the parameter raw and JASON and the request is the put request.
+
+ ![Screenshot from 2023-12-17 18-09-33](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/7f226ee9-4492-4b0a-bab1-cb130ea4b715)
+
+ You can see all the details in the above image.  
+
+##### All those URL has different methods like GET, PUT, POST
+
+
+### Difference Between GET, PUT, POST
+
+ 
+
+
 
 
 
