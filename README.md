@@ -82,16 +82,16 @@ API Gateway is connected to the Lamda function  and in the API Gateway there is 
 
 
 ### Let's get started with the actual Three tier taskmaster application
-In this project, we are going  to deploy the three-tier taskmaster application using the AWS serverless framework, The actual demonstration of the project starts from here on.
+In this project, we will deploy the three-tier taskmaster application using the AWS serverless framework, The actual demonstration of the project starts from here on.
 The above project that we have discussed was the testing project of the HTTP API which serverless provides inbuild
 
 
-#### step by step guid
+#### step-by-step guide
 
 - Clone the GitHub repo of the project from here: [https://github.com/Abhibhagat1407/serverless-taskmaster-aws-app.git]
-  for deploying applications using serverless it requires creating serveless. yml file for deployment configration
-- Create a serverless.yml file in the above-provided repo you will get the serverless file you can use for the refrence and modify it accordingly.
-- Before the deployment starts you need to set the org like this ( serverless --org=<username-of-serverless-famework>)
+  for deploying applications using serverless it requires creating serveless. yml file for deployment configuration
+- Create a serverless.yml file in the above-provided repo you will get the serverless file you can use for the reference and modify it accordingly.
+- Before the deployment starts you need to set the org like this ( `serverless --org=<username-of-serverless-famework>`)
  * It will ask for to choose the option for the deployment. Choose according to your requirements. You will get an output something like this:
 
 [output](![Screenshot from 2023-12-16 13-46-44](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/6069803e-9741-488e-bcc5-d6aa3aea8e62)
@@ -104,8 +104,8 @@ The above project that we have discussed was the testing project of the HTTP API
  * Now you can check your CloudFormation stack to see the created resources after applying the serverless.yml file. here is the DynamoDB table created using the above configuration of the serverless.yml
    ![results](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2014-21-32.png)
 
-- Up until now we have just created the table required for the project in the next demonstration I will be creating the lambda functions. Lmabda function will get created for the hello service.
-- Then I wrote the lambda function to add a new service to it. in the previous example we just had a dynamodb as a resource now this Dunamodb table will get attached to the functions automatically.
+- Up until now we have just created the table required for the project, in the next demonstration I will be creating the lambda functions. The Lambda function will be created for the Hello service.
+- Then I wrote the lambda function to add a new service to it. in the previous example, we just had a dynamodb as a resource, now this Dynamodb table will get attached to the functions automatically.
 - That lambda function contains the service to display the hello message. To see that message copy the endpoint serverless gave you on the terminal and open it on the browser to see the message.
   ![endpoint](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2014-56-39.png)
   
@@ -118,7 +118,20 @@ The above project that we have discussed was the testing project of the HTTP API
    * It automatically creates cloud watch log groups for logging.
      ![cloudwatch logs](file:///home/abhishek/Pictures/Screenshots/Screenshot%20from%202023-12-16%2015-19-59.png)
 
-- Added more Three services like kalamkari, Kaambharo, and Kaamdikhao these will be created as separate objects and every object uses each lambda for each service or object.   
+- Added more Three services like kaamkaro, Kaambharo, and Kaamdikhao these will be created as separate objects and every object uses each lambda for each service or object. That means we will be required to type Lamda functions for each service.
+- After deploying all of these services you will see the endpoint for each service on the terminal like this:
+  ![Screenshot from 2023-12-17 08-55-08](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/b14c4295-551b-42f8-ba12-215e250cba7b)
+
+
+
+
+### API Testing With Postman
+Postman is a tool or software that provides a user-friendly UI for testing API easily.
+
+##### Stetps of testing 
+* To get started first click on the + sign to create a new collection click on add request and enter the URL that we wanted to test.
+* 
+
   
   
 
