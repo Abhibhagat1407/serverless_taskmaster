@@ -122,6 +122,7 @@ The above project that we have discussed was the testing project of the HTTP API
 - After deploying all of these services you will see the endpoint for each service on the terminal like this:
   ![Screenshot from 2023-12-17 08-55-08](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/b14c4295-551b-42f8-ba12-215e250cba7b)
 
+  
 
 
 
@@ -188,7 +189,16 @@ It seems that the error is related to the uuid. It was related to `module not fo
   
 ![Screenshot from 2023-12-17 16-35-54](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/59ccf9b2-4774-40dd-9535-7851cc52c0fc)
 
-* Then again type `serverless deploy` to make changes in the previous deployment, which will resolve the error
+* Then again type `serverless deploy` to make changes in the previous deployment, which will resolve the error.
+* again test the URL you will see that the error is gone.
+
+
+
+### Up until now our serverless architecture diagram looks like this
+
+![Screenshot from 2023-12-17 17-06-13](https://github.com/Abhibhagat1407/serverless_taskmaster/assets/109520000/9bed1441-751b-4dfa-9304-f4f0b528a92b)
+
+
 
 
 
